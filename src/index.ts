@@ -18,7 +18,7 @@ export = {
 	},
 	plugins: ['@typescript-eslint'],
 	rules: {
-		'@typescript-eslint/indent': ['error', 'space'],
+		'@typescript-eslint/indent': ['error', 2],
 		'@typescript-eslint/quotes': ['error', 'single'],
 		'@typescript-eslint/semi': ['error', 'never'],
 		'@typescript-eslint/strict-boolean-expressions': 'off',
