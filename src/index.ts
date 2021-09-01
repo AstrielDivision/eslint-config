@@ -43,7 +43,7 @@ export = {
 		'no-mixed-spaces-and-tabs': 'error',
 		'no-void': 'off',
 		'prefer-const': 'off',
-		indent: ['error', 2],
+		indent: 'off',
 		yoda: 'error',
     'no-extra-boolean-cast': 'error',
 		'no-extra-semi': 'error',
