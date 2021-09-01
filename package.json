@@ -19,7 +19,7 @@
     "husky": "7.0.1",
     "rimraf": "3.0.2",
     "standard-version": "9.3.1",
-    "ts-node": "10.1.0"
+    "ts-node": "10.2.1"
   },
   "engines": {
     "node": ">=15",
