@@ -16,7 +16,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^4.28.3
     "@typescript-eslint/parser": ^4.28.3
     cz-conventional-changelog: 3.3.0
-    eslint-config-standard-with-typescript: ^20.0.0
+    eslint-config-standard-with-typescript: ^21.0.0
     eslint-plugin-import: ^2.23.4
     eslint-plugin-node: ^11.1.0
     eslint-plugin-promise: ^5.1.0
@@ -1274,20 +1274,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-standard-with-typescript@npm:^20.0.0":
-  version: 20.0.0
-  resolution: "eslint-config-standard-with-typescript@npm:20.0.0"
+"eslint-config-standard-with-typescript@npm:^21.0.0":
+  version: 21.0.1
+  resolution: "eslint-config-standard-with-typescript@npm:21.0.1"
   dependencies:
     "@typescript-eslint/parser": ^4.0.0
     eslint-config-standard: ^16.0.0
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ">=4.0.1"
-    eslint: ">=7.12.1"
-    eslint-plugin-import: ">=2.22.1"
-    eslint-plugin-node: ">=11.1.0"
-    eslint-plugin-promise: ">=4.2.1"
-    typescript: ">=3.9"
-  checksum: ff7395ad2b815efac92b5adff9d2902503aefb6288118c602cda998382c57d79790b7c33f9880227405610bcf97b8cefc887e425af231d9061b69b8187fe906d
+    "@typescript-eslint/eslint-plugin": ^4.0.1
+    eslint: ^7.12.1
+    eslint-plugin-import: ^2.22.1
+    eslint-plugin-node: ^11.1.0
+    eslint-plugin-promise: ^4.2.1 || ^5.0.0
+    typescript: ^3.9 || ^4.0.0
+  checksum: c3912558f26c4e4a38df4932d0f89fb95f7a9d5041386417995ce2bed35d64515c66a9a023265eb6c840a4e859bc7f434275ef773493a312e5941e1ceb0da508
   languageName: node
   linkType: hard
 
