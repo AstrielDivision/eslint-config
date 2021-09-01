@@ -1,0 +1,7 @@
+{
+  "extends": "@astriel-division/ts-config/src/tsconfig",
+  "compilerOptions": {
+    "outDir": "../build",
+    "rootDir": "."
+  }
+}

@@ -1,14 +1,17 @@
 {
   "name": "@astriel-division/eslint-config",
-  "version": "1.0.2",
-  "main": "src/index",
+  "version": "1.0.4",
+  "main": "build/index",
   "author": "AstrielDivision",
   "license": "MIT",
   "description": "TypeScript ESLint config for various projects",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "clean": "rimraf ./build && mkdir ./build",
+    "build": "yarn clean && tsc -b ./src"
   },
   "devDependencies": {
+    "@astriel-division/ts-config": "^1.0.5",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
     "@types/node": "^16.3.3",
@@ -30,7 +33,8 @@
     "url": "https://github.com/AstrielDivision/eslint-config/issues"
   },
   "files": [
-    "src"
+    "build",
+    "!build/tsconfig*"
   ],
   "commitlint": {
     "extends": [
