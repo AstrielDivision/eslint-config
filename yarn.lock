@@ -10,8 +10,8 @@ __metadata:
   resolution: "@astriel-division/eslint-config@workspace:."
   dependencies:
     "@astriel-division/ts-config": ^1.0.5
-    "@commitlint/cli": ^12.1.4
-    "@commitlint/config-conventional": ^12.1.4
+    "@commitlint/cli": 12.1.4
+    "@commitlint/config-conventional": 12.1.4
     "@types/node": ^16.3.3
     "@typescript-eslint/eslint-plugin": ^4.28.3
     "@typescript-eslint/parser": ^4.28.3
@@ -68,7 +68,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:^12.1.4":
+"@commitlint/cli@npm:12.1.4":
   version: 12.1.4
   resolution: "@commitlint/cli@npm:12.1.4"
   dependencies:
@@ -87,7 +87,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^12.1.4":
+"@commitlint/config-conventional@npm:12.1.4":
   version: 12.1.4
   resolution: "@commitlint/config-conventional@npm:12.1.4"
   dependencies:
