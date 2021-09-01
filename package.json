@@ -11,15 +11,15 @@
     "build": "yarn clean && tsc -b ./src"
   },
   "devDependencies": {
-    "@astriel-division/ts-config": "^1.0.5",
+    "@astriel-division/ts-config": "1.0.5",
     "@commitlint/cli": "12.1.4",
     "@commitlint/config-conventional": "12.1.4",
-    "@types/node": "^16.3.3",
-    "cz-conventional-changelog": "^3.3.0",
-    "husky": "^7.0.0",
-    "rimraf": "^3.0.2",
-    "standard-version": "^9.3.1",
-    "ts-node": "^10.1.0"
+    "@types/node": "16.3.3",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "7.0.1",
+    "rimraf": "3.0.2",
+    "standard-version": "9.3.1",
+    "ts-node": "10.1.0"
   },
   "engines": {
     "node": ">=15",
