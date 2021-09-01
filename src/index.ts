@@ -5,7 +5,6 @@ export = {
 		commonjs: true
 	},
 	extends: [
-		'eslint:recommended',
 		'standard-with-typescript',
 		'plugin:@typescript-eslint/recommended'
 	],
@@ -32,7 +31,9 @@ export = {
 		'block-scoped-var': 'error',
 		'brace-style': [2, '1tbs'],
 		'eol-last': [2, 'always'],
+    'no-empty-character-class': 'error',
 		'no-new': 'off',
+    'no-empty': 'error',
 		eqeqeq: 'error',
 		'linebreak-style': ['error', 'unix'],
 		'no-console': 'off',
@@ -44,5 +45,24 @@ export = {
 		'prefer-const': 'off',
 		indent: ['error', 2],
 		yoda: 'error',
+    'no-extra-boolean-cast': 'error',
+		'no-extra-semi': 'error',
+		'no-func-assign': 'error',
+		'no-inner-declarations': 'error',
+		'no-invalid-regexp': 'error',
+		'no-irregular-whitespace': 'error',
+		'no-misleading-character-class': 'error',
+		'no-obj-calls': 'error',
+		'no-prototype-builtins': 'error',
+		'no-regex-spaces': 'warn',
+		'no-sparse-arrays': 'error',
+		'no-template-curly-in-string': 'error',
+		'no-unexpected-multiline': 'error',
+		'no-unreachable': 'error',
+		'no-unsafe-finally': 'error',
+		'no-unsafe-negation': 'error',
+		'require-atomic-updates': 'error',
+		'use-isnan': 'error',
+		'valid-typeof': 'error'
 	}
 }
