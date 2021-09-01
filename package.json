@@ -1,0 +1,70 @@
+{
+  "name": "@astriel-division/eslint-config",
+  "version": "1.0.1",
+  "main": "src/index",
+  "author": "AstrielDivision",
+  "license": "MIT",
+  "description": "TypeScript ESLint config for various projects",
+  "scripts": {
+    "lint": "eslint src --ext ts",
+    "lint:fix": "eslint src --ext ts --fix",
+    "build": "yarn clean && yarn build:ts",
+    "build:ts": "tsc -p ./",
+    "clean": "rimraf ./dist && mkdir dist",
+    "doc:gen": "typedoc",
+    "postinstall": "husky install .github/husky",
+    "commit": "git-cz"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@types/node": "^16.3.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.0",
+    "rimraf": "^3.0.2",
+    "standard-version": "^9.3.1",
+    "ts-node": "^10.1.0"
+  },
+  "engines": {
+    "node": ">=15",
+    "npm": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AstrielDivision/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AstrielDivision/eslint-config/issues"
+  },
+  "files": [
+    "src"
+  ],
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-config-standard-with-typescript": "^20.0.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0",
+    "typescript": "^4.3.5"
+  }
+}
