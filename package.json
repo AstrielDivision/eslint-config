@@ -12,14 +12,14 @@
   },
   "devDependencies": {
     "@astriel-division/ts-config": "1.0.5",
-    "@commitlint/cli": "12.1.4",
-    "@commitlint/config-conventional": "12.1.4",
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
     "@types/node": "16.3.3",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "7.0.1",
+    "husky": "7.0.2",
     "rimraf": "3.0.2",
     "standard-version": "9.3.1",
-    "ts-node": "10.1.0"
+    "ts-node": "10.2.1"
   },
   "engines": {
     "node": ">=15",
@@ -54,7 +54,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.3",
     "@typescript-eslint/parser": "^4.28.3",
-    "eslint-config-standard-with-typescript": "^20.0.0",
+    "eslint-config-standard-with-typescript": "^21.0.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0"
