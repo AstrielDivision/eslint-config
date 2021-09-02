@@ -161,7 +161,7 @@ export = {
 		'no-restricted-properties': 'off',
 		'no-restricted-syntax': 'off',
 		'no-return-assign': 'off',
-		'no-return-await': 'warn',
+		'no-return-await': 'off',
 		'no-script-url': 'off',
 		'no-self-assign': 'error',
 		'no-self-compare': 'warn',
