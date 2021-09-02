@@ -1,6 +1,6 @@
 {
   "name": "@astriel-division/eslint-config",
-  "version": "1.1.2",
+  "version": "1.1.5",
   "main": "build/index",
   "author": "AstrielDivision",
   "license": "MIT",

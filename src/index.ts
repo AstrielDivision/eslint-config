@@ -99,10 +99,7 @@ export = {
     'require-atomic-updates': 'error',
     'use-isnan': 'error',
     'valid-typeof': 'error',
-    'complexity': [
-      'warn',
-      3
-    ],
+    'complexity': 'off',
     'default-case': 'warn',
     'guard-for-in': 'off',
     'sort-imports': 'warn',
