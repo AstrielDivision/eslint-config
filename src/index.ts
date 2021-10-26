@@ -102,7 +102,6 @@ export = {
     'complexity': 'off',
     'default-case': 'warn',
     'guard-for-in': 'off',
-    'sort-imports': 'warn',
     'max-depth': 'off',
     'max-nested-callbacks': 'off',
     'max-params': 'off',
