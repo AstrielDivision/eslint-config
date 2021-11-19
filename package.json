@@ -11,7 +11,7 @@
     "build": "yarn clean && tsc -b ./src"
   },
   "devDependencies": {
-    "@astriel-division/ts-config": "1.0.5",
+    "@astriel-division/ts-config": "1.0.7",
     "@commitlint/cli": "13.2.1",
     "@commitlint/config-conventional": "13.2.0",
     "@types/node": "16.11.21",
