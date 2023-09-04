@@ -23,7 +23,7 @@ jobs:
       - name: Install
         run: yarn
       - name: Cache Dependencies
-        uses: actions/cache@v2.1.7
+        uses: actions/cache@v2.1.8
         id: cache
         with:
           path: node_modules
