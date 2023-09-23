@@ -12,7 +12,7 @@ __metadata:
     "@astriel-division/ts-config": 1.0.7
     "@commitlint/cli": 16.1.0
     "@commitlint/config-conventional": 16.0.0
-    "@types/node": 16.11.21
+    "@types/node": 16.18.54
     "@typescript-eslint/eslint-plugin": ^5.2.0
     "@typescript-eslint/parser": ^5.2.0
     cz-conventional-changelog: 3.3.0
@@ -396,10 +396,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.11.21":
-  version: 16.11.21
-  resolution: "@types/node@npm:16.11.21"
-  checksum: 75b679dc6375cf09bc14a2d1b344be6f3fd8ea50f212b0d60970dc9e175cef45e44c284c716eb9e766ffa52d0c83b689adb3d1911b6dd8649c560b8f77442a22
+"@types/node@npm:16.18.54":
+  version: 16.18.54
+  resolution: "@types/node@npm:16.18.54"
+  checksum: 208e8fc64f605e9cd55ab5e620a0fd019d8fe5629e3e3c5de869a149b731ab0fac5720c516dccc0ecc834ac27df754723dfe6554551663f016ba5096ea8851df
   languageName: node
   linkType: hard
 
